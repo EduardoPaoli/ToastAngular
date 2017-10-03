@@ -1,0 +1,17 @@
+{
+  "name": "t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material/snackbar": "^0.4.1",
+    "bower": "^1.8.2",
+    "material-components-web": "^0.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
