@@ -2,7 +2,12 @@
     'use strict'
 
     var myApp = angular.module('app', [
-        // 'app.configMenu',
-        'app.toast'
+        'app.toast',
+        'app.configMenu'
     ]);
+
+    myApp.config(function () {
+        
+        window.onload = function() { document.body.className = ''; };
+    });
 })();

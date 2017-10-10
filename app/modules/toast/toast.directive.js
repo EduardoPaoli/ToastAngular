@@ -5,7 +5,7 @@
         var directive = {
             templateUrl: "app/modules/toast/toast.tpl.html"
         }
-
+        
         return directive;
     };
 
